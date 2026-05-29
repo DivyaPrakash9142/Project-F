@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+</head>
+<body>
+
+    <h2>Mathematics Feedback Form</h2>
+
+    <form>
+
+        
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+        <label for="erp">ERP Number:</label><br>
+        <input type="number" id="erp" name="erp"><br><br>
+        <label for="section">Section:</label><br>
+        <select id="section" name="section">
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+            <option>F</option>
+        </select><br><br>
+
+        <label for="rating">Rate Mathematics (1 to 5):</label><br>
+        <input type="range" id="rating" name="rating" min="1" max="5">
+        <br><br>
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
